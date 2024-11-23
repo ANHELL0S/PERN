@@ -1,0 +1,53 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server --ignore uploads/ --ignore backups/",
+		"production": "node server",
+		"dev": "nodemon --ignore uploads/ --ignore backups/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"bcrypt": "^5.1.1",
+		"chai": "^5.1.1",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.0",
+		"jsonwebtoken": "^9.0.2",
+		"nodemon": "^3.1.4",
+		"pg": "^8.12.0",
+		"sequelize": "^6.37.3",
+		"zod": "^3.23.8"
+	},
+	"description": "",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"body-parser": "^1.20.3",
+		"chalk": "^5.3.0",
+		"compression": "^1.7.4",
+		"cron": "^3.1.7",
+		"crypto": "^1.0.1",
+		"elementtree": "^0.1.7",
+		"exceljs": "^4.4.0",
+		"express-rate-limit": "^7.4.0",
+		"fs": "^0.0.1-security",
+		"helmet": "^8.0.0",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"node-cron": "^3.0.3",
+		"nodemailer": "^6.9.15",
+		"p-queue": "^8.0.1",
+		"pdf-lib": "^1.17.1",
+		"pdfkit": "^0.15.0",
+		"pdfkit-table": "^0.1.99",
+		"socket.io": "^4.7.5",
+		"xlsx": "^0.18.5",
+		"xml2js": "^0.6.2"
+	}
+}
