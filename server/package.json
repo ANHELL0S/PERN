@@ -27,27 +27,13 @@
 	},
 	"description": "",
 	"dependencies": {
-		"axios": "^1.7.7",
 		"body-parser": "^1.20.3",
 		"chalk": "^5.3.0",
 		"compression": "^1.7.4",
-		"cron": "^3.1.7",
-		"crypto": "^1.0.1",
-		"elementtree": "^0.1.7",
-		"exceljs": "^4.4.0",
 		"express-rate-limit": "^7.4.0",
-		"fs": "^0.0.1-security",
 		"helmet": "^8.0.0",
 		"morgan": "^1.10.0",
-		"multer": "^1.4.5-lts.1",
-		"node-cron": "^3.0.3",
 		"nodemailer": "^6.9.15",
-		"p-queue": "^8.0.1",
-		"pdf-lib": "^1.17.1",
-		"pdfkit": "^0.15.0",
-		"pdfkit-table": "^0.1.99",
-		"socket.io": "^4.7.5",
-		"xlsx": "^0.18.5",
-		"xml2js": "^0.6.2"
+		"p-queue": "^8.0.1"
 	}
 }
