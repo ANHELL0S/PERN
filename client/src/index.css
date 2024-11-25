@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.hide-number-controls::-webkit-inner-spin-button,
+.hide-number-controls::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hide-number-controls {
+  -moz-appearance: textfield;
+}
+
+body {
+  @apply bg-white text-neutral-600;
+}
+
+body.dark {
+  @apply bg-neutral-900 text-neutral-100;
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-400;
+}
+
+/* For Firefox */
+.scrollbar-hide {
+  scrollbar-width: thin;
+  scrollbar-color: #6b7280 #374151;
+}
+
+body.dark .scrollbar-hide {
+  scrollbar-color: #9ca3af #111827;
+}
