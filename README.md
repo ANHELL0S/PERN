@@ -116,13 +116,13 @@ Para instalar y configurar el proyecto, sigue los siguientes pasos:
 
 4. Crea un archivo `.env` en el directorio raíz de ambos proyectos y configura las variables de entorno necesarias.
 
--- Client
+- Client
 
 ```bash
 VITE_API_BASE_URL=http://localhost:3000/api
 ```
 
--- Server
+- Server
 
 ```bash
 MAIN_DB_HOST=
