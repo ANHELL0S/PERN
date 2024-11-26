@@ -4,6 +4,9 @@
 
 ![image](https://github.com/user-attachments/assets/9afbe21f-1477-4a63-985e-bb92d1a529da)
 
+![image](https://github.com/user-attachments/assets/1655b35c-3f4c-4203-b84c-87c875ecac44)
+
+
 ---
 
 # Proyecto PERN
