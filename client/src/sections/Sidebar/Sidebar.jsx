@@ -34,7 +34,7 @@ const Sidebar = () => {
 					</Link>
 
 					{/* Botón para colapsar/expandir el sidebar */}
-					{isMobileOpen && (
+					{!isMobileOpen && (
 						<button
 							className={`text-neutral-50 hover:bg-neutral-600 bg-neutral-500 rounded-full ml-3 p-0.5 transition-transform duration-200 ${
 								isCollapsed ? 'rotate-180' : 'rotate-0'
