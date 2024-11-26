@@ -1,3 +1,11 @@
+![image](https://github.com/user-attachments/assets/5106c74a-2e74-4672-9972-b8102b601739)
+
+![image](https://github.com/user-attachments/assets/92bbbfd8-527b-49d9-a6db-ca48e0ea6ef5)
+
+![image](https://github.com/user-attachments/assets/9afbe21f-1477-4a63-985e-bb92d1a529da)
+
+---
+
 # Proyecto PERN
 
 Este proyecto es una aplicación que utiliza la arquitectura **PERN** (PostgreSQL, Express, React, Node.js).
@@ -112,13 +120,13 @@ Para instalar y configurar el proyecto, sigue los siguientes pasos:
 
 4. Crea un archivo `.env` en el directorio raíz de ambos proyectos y configura las variables de entorno necesarias.
 
--- Client
+- Client
 
 ```bash
 VITE_API_BASE_URL=http://localhost:3000/api
 ```
 
--- Server
+- Server
 
 ```bash
 MAIN_DB_HOST=
