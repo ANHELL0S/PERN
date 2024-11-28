@@ -6,17 +6,17 @@ import { OfflineAlert } from './components/Banner/OfflineAlert.jsx'
 import { NetworkStatusProvider } from './context/NetworkStatusContext.jsx'
 
 function App() {
-	return (
-		<NetworkStatusProvider>
-			<OfflineAlert />
-			<AuthProvider>
-				<Router>
-					<RoutesConfig />
-				</Router>
-			</AuthProvider>
-			<Toaster />
-		</NetworkStatusProvider>
-	)
+    return (
+        <NetworkStatusProvider>
+            <OfflineAlert />
+            <AuthProvider>
+                <Router>
+                    <RoutesConfig />
+                </Router>
+            </AuthProvider>
+            <Toaster />
+        </NetworkStatusProvider>
+    )
 }
 
 export default App
